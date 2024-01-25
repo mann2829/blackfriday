@@ -1,0 +1,1045 @@
+/* add font  */
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("fonts/RedHatDisplay-Black.woff2") format("woff2"),
+    url("fonts/RedHatDisplay-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("fonts/RedHatDisplay-BlackItalic.woff2") format("woff2"),
+    url("fonts/RedHatDisplay-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("fonts/RedHatDisplay-BoldItalic.woff2") format("woff2"),
+    url("fonts/RedHatDisplay-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("fonts/RedHatDisplay-ExtraBold.woff2") format("woff2"),
+    url("fonts/RedHatDisplay-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("fonts/RedHatDisplay-ExtraBoldItalic.woff2") format("woff2"),
+    url("fonts/RedHatDisplay-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("fonts/RedHatDisplay-Bold.woff2") format("woff2"),
+    url("fonts/RedHatDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("fonts/RedHatDisplay-Italic.woff2") format("woff2"),
+    url("fonts/RedHatDisplay-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("fonts/RedHatDisplay-Light.woff2") format("woff2"),
+    url("fonts/RedHatDisplay-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("fonts/RedHatDisplay-LightItalic.woff2") format("woff2"),
+    url("fonts/RedHatDisplay-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("fonts/RedHatDisplay-Medium.woff2") format("woff2"),
+    url("fonts/RedHatDisplay-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("fonts/RedHatDisplay-MediumItalic.woff2") format("woff2"),
+    url("fonts/RedHatDisplay-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("fonts/RedHatDisplay-Regular.woff2") format("woff2"),
+    url("fonts/RedHatDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("fonts/RedHatDisplay-SemiBold.woff2") format("woff2"),
+    url("fonts/RedHatDisplay-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("fonts/RedHatDisplay-SemiBoldItalic.woff2") format("woff2"),
+    url("fonts/RedHatDisplay-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* font css end  */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  position: relative;
+  font-family: "Red Hat Display";
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.custom-container {
+  max-width: 1240px;
+  margin: auto;
+  padding: 0 16px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 54px;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* header css start here  */
+header {
+  height: 80px;
+  background: #004b72;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 111;
+}
+
+header .custom-container {
+  padding: 0;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar-toggler {
+  width: 48px;
+  height: 32px;
+  border-radius: 54px;
+  background: #9eca3d;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+.navbar-brand {
+  margin: 0 35px 0 16px;
+}
+
+.header-inner p {
+  color: #fff;
+  letter-spacing: 0.7px;
+}
+
+.navbar-collapse {
+  margin-left: auto;
+}
+
+.navbar-collapse ul li a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 30.64px;
+  border-radius: 54px;
+  background: #9eca3d;
+  padding: 4px 16px;
+}
+
+.navbar-collapse.show {
+  display: block;
+  /* transition: "bottom 1s ease-in-out"; */
+  transition: transform 250ms, opacity 400ms;
+}
+
+/* footer section start here  */
+footer {
+  background: #004b72;
+  padding: 72px 0 50px;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+footer p,
+footer p a {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 34px;
+}
+
+.top-scroll-btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 42px;
+  background: #9eca3d;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-scroll-btn.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* banner section css start here  */
+.dashboard-banner-sec {
+  position: relative;
+  padding: 140px 0 0;
+}
+
+.dashboard-banner-sec::before {
+  content: "";
+  width: 100%;
+  height: calc(100% - 200px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #4b85b3;
+  background: linear-gradient(348deg, #4b85b3 0%, #00b9ab 100%);
+}
+
+.dashboard-banner-sec::after {
+  content: "";
+  width: 100%;
+  height: 200px;
+  background: #eff0f2;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.dashboard-banner-sec .custom-container {
+  position: relative;
+  z-index: 1;
+}
+
+.dashboard-banner-sec h2 {
+  margin: auto;
+}
+
+.dashboard-banner-sec h2 b {
+  font-weight: 600;
+}
+
+.dashboard-banner-sec h2,
+.dashboard-banner-sec p {
+  color: #fff;
+}
+
+.dashboard-banner-sec p {
+  max-width: 795px;
+  margin: 15px auto 50px;
+}
+
+.dashboard-banner-sec .transaction-graph {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 24px;
+  box-shadow: 11px 11px 67px 0px rgba(0, 75, 114, 0.15);
+  min-height: 285px;
+}
+
+.transaction-graph .custom-container {
+  padding: 0px;
+}
+
+/* total transaction sec css start here  */
+.total-transaction-sec {
+  background: #eff0f2;
+  padding: 100px 0;
+}
+
+.total-transaction-content {
+  display: flex;
+}
+
+.transaction-content-left {
+  background: rgba(110, 120, 134, 0.05);
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.transaction-content-right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: calc(100% - 400px);
+}
+
+.transaction-content-right .box {
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 0 0 20px 20px;
+  text-align: center;
+  color: #004b72;
+  width: calc(50% - 20px);
+  padding: 55px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.transaction-content-right .box p {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 54px;
+  margin: 30px auto 0;
+  max-width: 90%;
+}
+
+.transaction-content-right .box h5 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 2px;
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.transaction-content-right .box h5 span {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.transaction-content-left-inner {
+  padding: 32px;
+  text-align: center;
+}
+
+.transaction-content-left-inner h3 {
+  color: #004b72;
+}
+
+.transaction-content-left-inner img {
+  margin: 0px 0 0;
+}
+
+.transaction-content-left-inner li {
+  padding: 23px 20px;
+  color: #fff;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+
+.transaction-content-left-inner li.small {
+  font-size: 28px !important;
+  line-height: 40px;
+}
+
+.transaction-content-left-inner li h6 {
+  display: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  width: 85px;
+}
+
+.transaction-content-left-inner li:first-child h6 {
+  color: #004b72;
+}
+
+.transaction-content-left-inner li:first-child {
+  color: #004b72;
+  background: rgba(0, 75, 114, 0.09);
+}
+.transaction-content-left-inner li p{
+  font-size: 22px;
+  line-height:30px;
+  font-weight: 600;
+}
+
+.transaction-content-left-inner li:first-child span {
+  color: #004b72;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 43px;
+  padding-left: 10px;
+}
+
+.transaction-content-left-inner li:nth-child(2) {
+  background: var(--secondary-green, #9eca3d);
+}
+
+.transaction-content-left-inner li:last-child {
+  background-color: #03cebf;
+}
+
+.transaction-content-left-inner li:last-child P {
+  line-height: 25px;
+}
+
+.total-transaction-value-sec {
+  background-color: #004b72;
+  padding: 80px 0 60px 0;
+}
+
+.total-transaction-value-sec .custom-container,
+.total-transaction-volume-sec .custom-container {
+  position: relative;
+}
+
+.total-transaction-value-sec h3 {
+  color: #fff;
+  text-align: center;
+}
+
+.total-transaction-volume-sec {
+  padding: 80px 0 60px 0;
+}
+
+.total-transaction-volume-sec h3 {
+  color: #004b72;
+  text-align: center;
+}
+
+.visible-card-section {
+  background: #4b85b3;
+  background: linear-gradient(348deg, #4b85b3 0%, #00b9ab 100%);
+  padding: 80px 0 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.visible-card-section h3 {
+  margin-bottom: 60px;
+}
+
+/* .visible-card-section::after {
+  content: "";
+  width: 1097px;
+  height: 1097px;
+  margin: auto;
+  position: absolute;
+  right: 30%;
+  top: -30px;
+  border-radius: 50%;
+  border: 4.847px solid #fff;
+  opacity: 0.05;
+  background: radial-gradient(50% 50% at 50% 50%,
+      rgba(255, 255, 255, 0) 81.25%,
+      #fff 91.15%);
+} */
+
+.visible-card-section .right-box div,
+.visible-card-section .left-box div {
+  position: relative;
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+  border: 4.079px dotted #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 28px 0;
+}
+
+.visible-card-section .left-box div {
+  height: 98%;
+  width: 98%;
+  margin: auto;
+}
+
+.visible-card-section .left-box {
+  width: 620px;
+  height: 620px;
+  display: flex;
+  position: relative;
+}
+.visible-card-section .left-box  img{
+  width:250px;
+  max-height:270px;
+}
+.visible-card-section .right-box  img{
+  width:180px;
+  max-height:180px;
+}
+
+.visible-card-section .left-box::after,
+.visible-card-section .left-box::before {
+  content: "";
+  margin: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.visible-card-section .left-box::before {
+  opacity: 0.1;
+  height: 78%;
+  width: 78%;
+}
+
+.visible-card-section .left-box::after {
+  height: 100%;
+  width: 100%;
+  opacity: 0.05;
+}
+
+.visible-card-section .right-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.visible-card-section .right-box div p {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 34px;
+  position: absolute;
+  left: -10px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.visible-card-section .right-box div:first-child p {
+  background-color: #2cb2e1;
+}
+
+.visible-card-section .right-box div:last-child p {
+  background-color: #03cebf;
+}
+
+.visible-card-section .left-box div p {
+  background-color: #9eca3d;
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 34px;
+  position: absolute;
+  left: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 20px;
+}
+
+.visible-card-inner {
+  display: flex;
+  align-items: center;
+  max-width: 970px;
+  margin: auto;
+  justify-content: space-between;
+  position: relative;
+  z-index: 11;
+}
+
+.visible-card-section h3 {
+  color: #fff;
+  text-align: center;
+}
+
+.custom-container .highcharts-axis-line,
+.custom-container .highcharts-tick {
+  stroke: none;
+  /* Remove the stroke (line) */
+}
+
+.total-transaction-value-sec .wrapper {
+  /* padding: 6px 0px 2px 16px; */
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-left: 24px;
+  background: #266687;
+  height: 48px;
+  padding-right: 12px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.total-transaction-value-sec .wrapper span:nth-of-type(1) {
+  border-radius: 5px;
+  height: 32px;
+  width: 32px;
+  margin-right: 10px;
+}
+
+.total-transaction-value-sec .wrapper .box1,
+.total-transaction-volume-sec .wrapper .box1 {
+  background: linear-gradient(90deg, #92fe9d 0%, #00c9ff 100%, #00c9ff 100%);
+  margin-left: 10px;
+}
+
+.total-transaction-value-sec .wrapper .box2,
+.total-transaction-volume-sec .wrapper .box2 {
+  background: #0288d1;
+  margin-left: 10px;
+}
+
+.total-transaction-value-sec .wrapper .title {
+  font-family: "Red Hat Display";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.total-transaction-value-sec .wrapper .title-desc {
+  font-family: "Red Hat Display";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.total-transaction-volume-sec .wrapper {
+  /* padding: 6px 0px 2px 16px; */
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 38px;
+  background: #f9f9f9;
+  height: 60px;
+  width: 241px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.total-transaction-volume-sec .wrapper span:nth-of-type(1) {
+  border-radius: 5px;
+  height: 32px;
+  width: 32px;
+  margin-right: 10px;
+}
+
+.total-transaction-volume-sec .wrapper .title {
+  font-family: "Red Hat Display";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #50565e;
+}
+
+.total-transaction-volume-sec .wrapper .title-desc {
+  font-family: "Red Hat Display";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #50565e;
+  margin-left: 10px;
+}
+
+.growth {
+  position: absolute;
+  right: 0;
+  top: -50px;
+  z-index: 1;
+  display: block;
+  padding: 24px;
+  max-width: 160px;
+  margin-right: 0;
+  width: 100%;
+  margin-left: auto;
+  border-radius: 5px;
+  font-family: "Red Hat Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  text-align: center;
+}
+
+.growth.volume {
+  background: #eff0f2;
+  color: #004b72;
+}
+
+.growth.value {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+ul.total-hour-btn {
+  display: flex;
+  border-collapse: collapse;
+  overflow: hidden;
+}
+
+.total-hour-sec {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+ul.total-hour-btn li {
+  width: 47px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #a8adb4;
+  font-family: "Red Hat Display";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #a8adb4;
+  cursor: pointer;
+}
+
+ul.total-hour-btn li:first-child,
+ul.total-hour-btn li.active:first-child,
+ul.total-hour-btn li.active:first-child::after {
+  border-radius: 5px 0 0 5px;
+}
+
+ul.total-hour-btn li:last-child,
+ul.total-hour-btn li.active:last-child,
+ul.total-hour-btn li.active:last-child:after {
+  border-radius: 0 5px 5px 0;
+}
+
+ul.total-hour-btn li:nth-child(2),
+ul.total-hour-btn li:nth-child(3),
+ul.total-hour-btn li:nth-child(4) {
+  border-left: 0;
+}
+
+ul.total-hour-btn li.active {
+  background-color: #ffffff;
+  color: #004b72;
+  border-color: #004b72;
+  border-left: 1px !important;
+  position: relative;
+  z-index: 0;
+}
+
+ul.total-hour-btn li.active:after {
+  width: calc(100% - 1px);
+  height: calc(100% - 0px);
+  z-index: 1;
+  border: 1px solid #004b72;
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: -1px;
+  right: 0;
+  bottom: 0;
+}
+
+ul.total-hour-btn li.active:nth-child(2)::after,
+ul.total-hour-btn li.active:nth-child(3)::after {
+  width: calc(100% - 0px);
+  left: -1px;
+}
+
+.total-transaction-value-sec ul.total-hour-btn li.active:after {
+  border-color: #fff;
+}
+
+@media (min-width: 991px) {
+  .total-hour-sec {
+    display: none;
+  }
+}
+
+@media (max-width: 979px) {
+  .chart-title {
+    margin-top: 10px;
+  }
+  .growth {
+    padding: 10px 24px;
+    right: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  ul.total-hour-btn li {
+    width: 35px;
+    height: 18px;
+    font-size: 10px;
+    line-height: 13px;
+  }
+}
+
+.chart-title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 36px;
+  color: #fff;
+  justify-content: center;
+  margin-bottom: 48px;
+  font-weight: 600;
+}
+
+.chart-title.volume {
+  color: #004b72;
+}
+
+.map-btn {
+  display: flex;
+  padding: 0 0 0 25px;
+  margin-top: 20px;
+}
+
+.chart-heading {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 28px;
+}
+
+.chart-heading span {
+  display: block;
+  color: #a8adb4;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 4px;
+}
+
+/* countdown page css start here  */
+.countdown-page-banner {
+  padding-top: 80px;
+}
+.countdown-inner {
+  min-height: calc(100vh - 80px);
+  background-image: url("../images/countdown-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 0 15px;
+}
+.countdown-inner::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.9;
+  background: var(--Linear,
+      linear-gradient(327deg, #4b85b3 21.19%, #00b9ab 88.19%));
+}
+.countdown-text {
+  position: relative;
+  z-index: 1;
+}
+.countdown-text {
+  max-width: 1100px;
+  margin: 0 auto 0;
+  padding: 60px 0;
+  text-align: center;
+  color: #fff;
+}
+.countdown-text p {
+  max-width: 795px;
+  margin: 15px auto 80px;
+}
+.countdown-text ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.countdown-text ul li {
+  border-radius: 8px;
+  overflow: hidden;
+  min-width: 120px;
+  margin: 0 12px 0;
+}
+.countdown-text ul li h4 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 64px;
+  padding: 24px 16px;
+  background: rgba(255, 255, 255, 0.4);
+}
+.countdown-text ul li span {
+  color: #333e48;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 1px;
+  padding: 16px;
+  background-color: #fff;
+  display: block;
+}
+/* responsive  */
+@media (max-width: 991px) {
+  .countdown-text ul li h4 {
+    font-size: 46px;
+    line-height: 56px;
+    padding: 20px 12px;
+  }
+  .countdown-text ul li span {
+    padding: 12px;
+  }
+}
+@media (max-width: 767px) {
+  .countdown-text ul li {
+    min-width: 110px;
+    margin: 0 5px 0;
+  }
+  .countdown-text {
+    padding: 40px 0;
+  }
+  .countdown-text p {
+    margin: 15px auto 60px;
+  }
+}
+@media (max-width: 575px) {
+  .countdown-text ul li h4 {
+    font-size: 32px;
+    line-height: 34px;
+    padding: 14px 10px;
+  }
+  .countdown-text ul li {
+    min-width: 78px;
+    margin: 0 3px 0;
+  }
+  .countdown-text ul li span {
+    padding: 8px;
+    font-size: 10px;
+  }
+}
+/* countdown page css end here  */

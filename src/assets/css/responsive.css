@@ -1,0 +1,387 @@
+@media (max-width: 1440px) {
+  .visible-card-section::after {
+    right: unset;
+    left: -30px;
+  }
+}
+@media (max-width: 1199px) {
+  .visible-card-section::after {
+    width: 930px;
+    height: 930px;
+  }
+  .visible-card-section {
+    padding: 130px 0 70px;
+  }
+  .transaction-content-right .box p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .custom-container {
+    padding: 0 40px;
+  }
+  .navbar-brand {
+    margin-left: 40px;
+  }
+  .navbar-collapse {
+    margin-right: 40px;
+  }
+  .growth {
+    margin-right: 40px;
+  }
+}
+@media (max-width: 991px) {
+  h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .visible-card-section h3 {
+    display: block;
+  }
+  .visible-card-section {
+    padding: 40px 0;
+  }
+  .visible-card-section h3 {
+    margin-bottom: 25px;
+  }
+  .visible-card-section .left-box {
+    width: 424px;
+    height: 424px;
+  }
+  .visible-card-section .left-box div {
+    height: 98%;
+    width: 98%;
+  }
+  .visible-card-section .right-box div {
+    height: 177px;
+    width: 177px;
+  }
+  .visible-card-section .right-box div p {
+    width: 58px;
+    height: 58px;
+    font-size: 32px;
+    left: -2px;
+    top: -10px;
+  }
+  .visible-card-section .left-box div p {
+    width: 70px;
+    height: 70px;
+    font-size: 44px;
+    left: 30px;
+  }
+  .visible-card-section .left-box div img {
+    max-width: 94px;
+  }
+  .visible-card-section .right-box div img {
+    max-width: 80%;
+  }
+  .visible-card-inner {
+    max-width: 680px;
+  }
+  .visible-card-section::after {
+    width: 748px;
+    height: 748px;
+    left: -50px;
+    top: -5px;
+  }
+  footer {
+    background: #004b72;
+    padding: 50px 0 20px;
+  }
+  .total-transaction-sec {
+    padding: 0;
+  }
+  .total-transaction-sec .custom-container,
+  .dashboard-banner-sec .custom-container {
+    padding: 0;
+  }
+  .dashboard-banner-sec h2,
+  .dashboard-banner-sec p {
+    max-width: 93% !important;
+  }
+  .transaction-content-left-inner {
+    padding: 40px 40px 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .dashboard-banner-sec .transaction-graph {
+    border-radius: 0;
+  }
+  .total-transaction-content {
+    flex-wrap: wrap;
+  }
+  .transaction-content-left,
+  .transaction-content-right {
+    width: 100%;
+    margin: 0;
+  }
+  .transaction-content-right .box {
+    margin: 8px;
+    width: calc(50% - 16px);
+    padding: 38px 0;
+  }
+  .transaction-content-right {
+    padding: 32px;
+  }
+  .transaction-content-right .box img {
+    max-width: 158px;
+  }
+  .transaction-content-right .box h5 {
+    font-size: 32px;
+    line-height: 49px;
+  }
+  .transaction-content-left-inner h3 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .transaction-content-left-inner li {
+    font-size: 36px;
+    padding: 19px;
+  }
+  .transaction-content-left-inner div {
+    width: 300px;
+  }
+  .total-transaction-value-sec,
+  .total-transaction-volume-sec {
+    padding-top: 88px;
+  }
+  .growth {
+    margin-right: 0;
+    top: -58px;
+  }
+}
+@media (max-width: 767px) {
+  .navbar-toggler {
+    display: block;
+    position: absolute;
+    right: 16px;
+  }
+  .navbar-collapse {
+    display: none;
+    background-color: #fff;
+    width: 100%;
+    padding: 16px;
+    position: absolute;
+    top: 80px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  .navbar-collapse ul li a {
+    color: #050505;
+    background: transparent;
+    padding: 4px 0;
+    text-transform: capitalize;
+  }
+  .header-inner p span {
+    display: none;
+  }
+  .transaction-content-left-inner {
+    display: block;
+  }
+  .dashboard-banner-sec h2 b {
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 22px;
+    line-height: 34px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  h3 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .dashboard-banner-sec h2,
+  .dashboard-banner-sec p {
+    max-width: 88% !important;
+  }
+  .dashboard-banner-sec {
+    padding: 100px 0 0;
+  }
+  .dashboard-banner-sec p {
+    margin: 15px auto 24px;
+  }
+  .transaction-content-left-inner h3 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .transaction-content-left-inner {
+    padding: 24px 20px 12px;
+  }
+  .transaction-content-left-inner div {
+    width: 100%;
+  }
+  .transaction-content-left-inner li {
+    font-size: 24px;
+    line-height: 34px;
+    padding: 10px 24px;
+    font-weight: 700;
+    margin-top: 4px;
+  }
+  .transaction-content-left-inner li p{
+    font-size:14px;
+    line-height:22px;
+  }
+  .transaction-content-left-inner li h6 {
+    display: inline-block;
+  }
+  .transaction-content-left-inner li:first-child span {
+    display: none;
+  }
+  .transaction-content-right .box {
+    margin: 2px 0;
+    width: 100%;
+    padding: 30px 20px;
+  }
+  .transaction-content-right {
+    padding: 4px 6px 4px;
+  }
+  .transaction-content-right .box img {
+    max-width: 140px;
+  }
+  .transaction-content-right .box p {
+    font-size: 16px;
+  }
+  .total-transaction-volume-sec,
+  .total-transaction-value-sec {
+    padding: 65px 0 50px 0;
+  }
+
+  .total-transaction-volume-sec .custom-container,
+  .total-transaction-value-sec .custom-container {
+    padding: 0 16px;
+  }
+  .footer-inner {
+    display: block;
+  }
+  footer {
+    padding: 25px 0 20px;
+  }
+  .top-scroll-btn {
+    right: 16px;
+    bottom: 24px;
+  }
+  .visible-card-section .left-box {
+    width: 189px;
+    height: 189px;
+  }
+  .visible-card-section .right-box div,
+  .visible-card-section .left-box div {
+    border: 1.2px dashed #fff;
+  }
+  .visible-card-section .left-box div {
+    height: 184px;
+    width: 184px;
+  }
+
+  .visible-card-section .left-box::before {
+    width: 76%;
+    height: 76%;
+  }
+
+  .visible-card-section .left-box div img {
+    max-width: 42px;
+  }
+  .visible-card-section .left-box div p {
+    height: 32px;
+    width: 32px;
+    font-size: 19px;
+    left: 20px;
+    top: 0;
+  }
+  .visible-card-section .right-box div {
+    height: 79px;
+    width: 79px;
+  }
+  .visible-card-section .right-box div p {
+    width: 26px;
+    height: 26px;
+    font-size: 15px;
+    left: 0px;
+    top: -5px;
+  }
+  .visible-card-section h3 {
+    /* display: none; */
+  }
+  .visible-card-section .right-box div {
+    margin: 10px 0;
+  }
+  .visible-card-section .right-box div img {
+    max-width: 75%;
+  }
+  .visible-card-section::after {
+    width: 350px;
+    height: 350px;
+    left: -75px;
+    top: -15px;
+  }
+  .visible-card-inner {
+    max-width: 320px;
+  }
+  .dashboard-banner-sec .transaction-graph {
+    min-height: 170px;
+  }
+  .navbar-brand {
+    margin-left: 16px;
+  }
+  .header-inner p {
+    font-size: 16px;
+  }
+  .transaction-content-left-inner img {
+    margin-top: 10px;
+  }
+  .transaction-content-right {
+    background: rgba(110, 120, 134, 0.05);
+    padding: 4px;
+  }
+  .growth {
+    font-size: 12px;
+    padding: 8px;
+    width: auto;
+    right: 0;
+    margin-right: 24px;
+    top: -47px;
+  }
+  .chart-title {
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 6px;
+  }
+  .map-btn {
+    padding: 0px;
+    justify-content: space-between;
+    margin-top: 4px;
+  }
+  .map-btn .wrapper {
+    margin-left: 0px;
+    width: calc(50% - 6px);
+    margin-left: 0;
+    margin-right: 0;
+    height: 28px;
+    padding: 0px;
+  }
+
+  .total-transaction-value-sec {
+    padding-bottom: 17px;
+  }
+
+  .map-btn .wrapper span:nth-of-type(1) {
+    width: 16px;
+    height: 16px;
+  }
+  .map-btn .wrapper .title,
+  .map-btn .wrapper .title-desc {
+    font-size: 11px;
+  }
+  footer .custom-container {
+    padding: 0px;
+  }
+
+  footer .footer-inner {
+    padding: 13px 20px 0 20px;
+  }
+}
